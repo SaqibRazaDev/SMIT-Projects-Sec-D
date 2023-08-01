@@ -1,0 +1,94 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    color: #FFFFFF;
+    background-color: #2B2B2B;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 480px) {
+    .section-1-heading {
+        font-size: 28px;
+    }
+
+    .ctg-card {
+        width: 50%;
+    }
+
+    .ctg-heading {
+        font-size: 10px;
+    }
+
+    .work-card-container {
+        width: 100%;
+    }
+
+    .work-img {
+        height: 150px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 900px) {
+    .section-1-heading {
+        font-size: 38px;
+    }
+}
+
+@media only screen and (min-width: 901px) {
+    .section-1-heading {
+        font-size: 67px;
+    }
+}
+
+/* Navbar */
+.nav-link {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0px 10px;
+}
+
+navbar-nav {
+    align-items: center;
+    text-align: center;
+}
+
+/* Discover Section */
+
+
+
+/* Trending Section */
+
+.card-1 {
+    background-color: #2B2B2B;
+    border: 0px;
+}
+
+/* More NFTs Section */
+
+.card-2 {
+    background-color: #3B3B3B;
+    border: 0px;
+    /* width: 250px; */
+}
+
+.space-mono {
+    font-family: 'Space Mono', monospace;
+}
+
+/* Artist Section */
+
+.artist-card {
+    display: grid;
+    place-items: center;
+}
+
+/* Magic Section */
+
+.magic-section{
+    height: 600px;
+    background-image: url(./Components/Assets/NftMashroom.png);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
