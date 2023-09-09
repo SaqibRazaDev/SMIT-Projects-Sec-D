@@ -1,0 +1,15 @@
+/* Header Home */
+
+.header-home {
+    background-image: url(../../../public/images/headerBG-min.jpg);
+    background-size: cover;
+    position: relative; 
+    background-color: #122d99bd ;
+    background-blend-mode: soft-light;
+}
+
+.header-sub{
+    background: linear-gradient(101deg, #122E99 -12.83%, #448fe6 104.22%);
+}
+
+  

@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+
+.section {
+    @apply py-8 md:py-14 px-4 md:px-10 lg:px-24
+}
+
+.heading-title {
+    @apply text-xl tracking-wider font-medium text-[#2370C8];
+}
+
+.heading-tagline {
+    @apply text-3xl md:text-4xl lg:text-5xl tracking-wide font-medium text-[#262A4E];
+}
+
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+roboto {
+    font-family: 'Roboto', 'sans-serif';
+}
+
+body {
+    max-width: 1440px;
+    margin: 0px auto;
+}
